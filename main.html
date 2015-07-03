@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Odin_newsweek</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -23,49 +23,586 @@
   <body>
     <header class="page-header">
       <div class="container">
-        <nav class="main-menu">
-          <ul class="page-nav">
-            <li class="logo">
-              <a href="" class="site-logo">
-               <img src="http://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/201410/logo.png" alt="Newsweek">
-              </a>
-            </li>
-            <li class="menu"><a href="">HOME</a></li>
-            <li class="menu"><a href="">POLITICS</a></li>
-            <li class="menu"><a href="">BUSINESS</a></li>
-            <li class="menu"><a href="">CULTURE</a></li>
-            <li class="menu"><a href="">TECHNOLOGY</a></li>
-            <li class="menu"><a href="">SCIENCE</a></li>
-            <li class="menu"><a href="">HEALTH</a></li>
-            <li class="menu last"><a href="">THIS WEEK'S EDITION</a></li>
-            <li class="header-account"><a href="">LOGIN</a></li>
-            <li class="header-account"><a href="">SUBSCRIBE</a></li>
-            <li class="search">
-              <form>
-                <input placeholder="Search for News" type="text" value size="15">
-                <input type="submit" value="GO">
-              </form>
-            </li>
-          </ul>
-        </nav>
+        <ul class="page-nav">
+          <li class="logo">
+            <a href="" class="site-logo">
+             <img src="http://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/201410/logo.png" alt="Newsweek">
+            </a>
+          </li>
+          <li class="menu"><a href="">HOME</a></li>
+          <li class="menu"><a href="">POLITICS</a></li>
+          <li class="menu"><a href="">BUSINESS</a></li>
+          <li class="menu"><a href="">CULTURE</a></li>
+          <li class="menu"><a href="">TECHNOLOGY</a></li>
+          <li class="menu"><a href="">SCIENCE</a></li>
+          <li class="menu"><a href="">HEALTH</a></li>
+          <li class="menu last"><a href="">THIS WEEK'S EDITION</a></li>
+          <li class="header-account"><a href="">LOGIN</a></li>
+          <li class="header-account"><a href="">SUBSCRIBE</a></li>
+          <li class="search">
+            <form>
+              <input placeholder="Search for News" type="text" value size="15">
+              <input type="submit" value="GO">
+            </form>
+          </li>
+        </ul>
       </div>
     </header>
 
-    <div class="container body-page">
+    <div class="container page-body">
+      <div class="row">
+        <div class="col-md-8 home-main">
+          <div class="content-top">
+            <a href=""><img src="http://d.europe.newsweek.com/en/full/8243/iraq-death-toll-highest-june-september-isis.jpg?w=790&h=461&l=50&t=40"></a>
+          </div>
+          <div class="content-middle">
+            <div class="row">
+              <div class="col-sm-8 col-sm-push-4 main-line">
+                <section class="top-article">
+                  <h1><a href="">Iraq death toll surges to 10-month high</a></h1>
+                  <p>The conflict in Iraq shows no sign of letting up as Isis continued to kill civilians and soldiers</p>
+                </section>
+
+                <section class="featured">
+                  <div class="featured-image">
+                    <a href=""><img src="http://d.europe.newsweek.com/en/full/8311/greek-yes-campaign-lead.jpg?w=262&h=175&l=50&t=40"></a>
+                  </div>
+                  <div class="featured-info">
+                    <div class="category">
+                      <a href="">POLITICS</a>
+                    </div>
+                    <h2 class="title">
+                      <a href="">'Yes' camp takes slim lead in Greek bailout referendum poll</a>
+                    </h2>
+                    <div class="summary">
+                      As Sunday approaches, the results for the vote are leaning towards accepting the bailout
+                    </div>
+                    <div class="related">
+                      <ul>
+                        <li>
+                          <span class="related-label">RELATED:</span>
+                          <span class="related-text"><a href="">Varoufakis: 'I'll resign if Greece votes Yes'</a></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </section>
+                <section class="featured">
+                  <div class="featured-image">
+                    <a href=""><img src="http://d.europe.newsweek.com/en/full/8313/idf-kill-palestinian-teenager-west-bank.jpg?w=262&h=175&l=50&t=40"></a>
+                  </div>
+                  <div class="featured-info">
+                    <div class="category">
+                      <a href="">CONFLICT</a>
+                    </div>
+                    <h2 class="title">
+                      <a href="">Israeli officer kills stone-throwing Palestinian youth in West Bank</a>
+                    </h2>
+                    <div class="summary">
+                      Mohammed Sami al-Ksbeh was shot by and Israeli army colonel at a checkpoint
+                    </div>
+                    <div class="related">
+                      <ul>
+                        <li>
+                          <span class="related-label">RELATED:</span>
+                          <span class="related-text"><a href="">Israel's Shin Bet dismantles Hamas cell in West Bank</a></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </section>
+                <section class="featured">
+                  <div class="featured-image">
+                    <a href=""><img src="http://d.europe.newsweek.com/en/full/8269/washington-trains-100-syrian-rebels-against-isis.jpg?w=262&h=175&l=50&t=40"></a>
+                  </div>
+                  <div class="featured-info">
+                    <div class="category">
+                      <a href="">CONFLICT</a>
+                    </div>
+                    <h2 class="title">
+                      <a href="">Washington training just 100 rebels to battle Isis in Syria</a>
+                    </h2>
+                    <div class="summary">
+                      US chairman of the Joint Chiefs of Staff promises the US will not take "shortcuts on vetting"
+                    </div>
+                    <div class="related">
+                      <ul>
+                        <li>
+                          <span class="related-label">RELATED:</span>
+                          <span class="related-text"><a href="">Israel reinforces border amid fears Egyptian Isis affiliate could siege Gaza</a></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </section>
+                <section class="featured">
+                  <div class="featured-image">
+                    <a href=""><img src="http://d.europe.newsweek.com/en/full/8277/dsk-more-popular-hollande.jpg?w=262&h=175&l=50&t=40"></a>
+                  </div>
+                  <div class="featured-info">
+                    <div class="category">
+                      <a href="">POLITICST</a>
+                    </div>
+                    <h2 class="title">
+                      <a href="">Disgraced DSK more popular than Hollande with French Left</a>
+                    </h2>
+                    <div class="summary">
+                      The former IMF boss is second only to PM Valls among Left-wing candidates according to a new poll
+                    </div>
+                    <div class="related">
+                      <ul>
+                        <li>
+                          <span class="related-label">RELATED:</span>
+                          <span class="related-text"><a href="">Le Pen calls for surveillance of mosques following attack</a></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </section>
+                <section class="featured">
+                  <div class="featured-image">
+                    <a href=""><img src="http://d.europe.newsweek.com/en/full/8316/british-see-islam-threat-uk.jpg?w=262&h=175&l=50&t=40"></a>
+                  </div>
+                  <div class="featured-info">
+                    <div class="category">
+                      <a href="">RELIGION</a>
+                    </div>
+                    <h2 class="title">
+                      <a href="">Majority of Britons see Islam as threat, new poll reveals</a>
+                    </h2>
+                    <div class="summary">
+                      75% say they believe that another large-scale terror attack is inevitable
+                    </div>
+                    <div class="related">
+                      <ul>
+                        <li>
+                          <span class="related-label">RELATED:</span>
+                          <span class="related-text"><a href="">Anti-extremism curriculum gets cold reception from UK government</a></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </section>
+                <section class="featured">
+                  <div class="featured-image">
+                    <a href=""><img src="http://d.europe.newsweek.com/en/full/8062/plank-waldron-church-sussex.jpg?w=262&h=175&l=50&t=40"></a>
+                  </div>
+                  <div class="featured-info">
+                    <div class="category">
+                      <a href="">RELIGION</a>
+                    </div>
+                    <h2 class="title">
+                      <a href="">The church board which illuminates a thousand years of English history</a>
+                    </h2>
+                    <div class="summary">
+                      Who are the 47 rectors of a parish church whose parochial details illuminate the great sweep of...
+                    </div>
+                    <div class="related">
+                      <ul>
+                        <li>
+                          <span class="related-label">RELATED:</span>
+                          <span class="related-text"><a href="">White suspect charged with murder in attack on black US church</a></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </section>
+                <section class="featured">
+                  <div class="featured-image">
+                    <a href=""><img src="http://d.europe.newsweek.com/en/full/8142/maps-displaying-uber-route.jpg?w=262&h=175&l=50&t=40"></a>
+                  </div>
+                  <div class="featured-info">
+                    <div class="category">
+                      <a href="">BUSINESS</a>
+                    </div>
+                    <h2 class="title">
+                      <a href="">Why the 'Uber of private jets' is doomed to fail</a>
+                    </h2>
+                    <div class="summary">
+                      In our ever-growing sharing economy, is the Uberisation of airspace the next big thing?
+                    </div>
+                    <div class="related">
+                      <ul>
+                        <li>
+                          <span class="related-label">RELATED:</span>
+                          <span class="related-text"><a href="">Smart money: Blockchains are the future of the internet</a></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </section>
+                <section class="featured">
+                  <div class="featured-image">
+                    <a href=""><img src="http://d.europe.newsweek.com/en/full/8264/finland-queries-croatian-nuclear-investment.jpg?w=262&h=175&l=50&t=40"></a>
+                  </div>
+                  <div class="featured-info">
+                    <div class="category">
+                      <a href="">POLITICS</a>
+                    </div>
+                    <h2 class="title">
+                      <a href="">Finland queries mystery Croatian nuclear investor over links with Russia</a>
+                    </h2>
+                    <div class="summary">
+                     The company invested €150 million in a planned Finnish nuclear plant
+                    </div>
+                    <div class="related">
+                      <ul>
+                        <li>
+                          <span class="related-label">RELATED:</span>
+                          <span class="related-text"><a href="">Russian military to receive over 2,000 units of heavy arms</a></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </section>
+                <section class="featured">
+                  <div class="featured-image">
+                    <a href=""><img src="http://d.europe.newsweek.com/en/full/8276/liberia-football-ebola-ban.jpg?w=262&h=175&l=50&t=40"></a>
+                  </div>
+                  <div class="featured-info">
+                    <div class="category">
+                      <a href="">SPORT</a>
+                    </div>
+                    <h2 class="title">
+                      <a href="">Football returns to Liberia despite new Ebola cases</a>
+                    </h2>
+                    <div class="summary">
+                     Liberia take on Guinea this weekend in first game on home soil in more than a year
+                    </div>
+                    <div class="related">
+                      <ul>
+                        <li>
+                          <span class="related-label">RELATED:</span>
+                          <span class="related-text"><a href="">Dozens of new Ebola cases reported in Sierra Leone and Guinea</a></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </section>
+                <section class="featured">
+                  <div class="featured-image">
+                    <a href=""><img src="http://d.europe.newsweek.com/en/full/8144/freddie-flintoff.jpg?w=262&h=175&l=50&t=40"></a>
+                  </div>
+                  <div class="featured-info">
+                    <div class="category">
+                      <a href="">SPORT</a>
+                    </div>
+                    <h2 class="title">
+                      <a href="">If I ruled the world: Freddie Flintoff</a>
+                    </h2>
+                    <div class="summary">
+                     The former England cricketer shares the rules he would pass if he were to run the world
+                    </div>
+                    <div class="related">
+                      <ul>
+                        <li>
+                          <span class="related-label">RELATED:</span>
+                          <span class="related-text"><a href="">If I ruled the world: David Mitchell</a></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </section>
+                <section class="featured">
+                  <div class="featured-image">
+                    <a href=""><img src="http://d.europe.newsweek.com/en/full/8175/jean-claude-biver-lvmh.jpg?w=262&h=175&l=50&t=40"></a>
+                  </div>
+                  <div class="featured-info">
+                    <div class="category">
+                      <a href="">BUSINESS</a>
+                    </div>
+                    <h2 class="title">
+                      <a href="">My Weekend: Jean-Claude Biver</a>
+                    </h2>
+                    <div class="summary">
+                     The head of LVMH's watch division pretends to help on his farm and listens to birdsong
+                    </div>
+                    <div class="related">
+                      <ul>
+                        <li>
+                          <span class="related-label">RELATED:</span>
+                          <span class="related-text"><a href="">My Weekend: Peter de Savary</a></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <div class="col-sm-4 col-sm-pull-8 left-line">
+                <div class="icon-title">
+                  <image src="images/Headlines.png">
+                </div>
+                <ul>
+                  <li>
+                    <span class="category">
+                      <a href="">Culture</a>
+                    </span>
+                    <a href="">Editor's letter: Europe needs narrative journalism</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Culture</a>
+                    </span>
+                    <a href="">Advanced new x-ray reveals Rubens' sensual secret</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Weird</a>
+                    </span>
+                    <a href="">Greek debt crowdfunding campaign passes €1 million</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Conflict</a>
+                    </span>
+                    <a href="">Russian military to receive over 2,000 units of heavy arms</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Technology</a>
+                    </span>
+                    <a href="">Robot kills worker in German car factory</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Law & Order</a>
+                    </span>
+                    <a href="">'Britain's richest criminal' shot dead in garden</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Fashion</a>
+                    </span>
+                    <a href="">Yves Saint Laurent - the man who transformed women</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Weird</a>
+                    </span>
+                    <a href="">Game of Thrones' Iron Throne to arrive in Moscow</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Books</a>
+                    </span>
+                    <a href="">Cocaine and cartels from the author who exposed the Neapolitan mafia</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Religion</a>
+                    </span>
+                    <a href="">Greek Orthodox leader calls for 'Yes' vote in bailout referendum</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Business</a>
+                    </span>
+                    <a href="">Nike co-founder Phil Knight to retire, aged 77</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Conflict</a>
+                    </span>
+                    <a href="">Israel reinforces border amid fears Egyptian Isis affiliate could siege Gaza</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Law & Order</a>
+                    </span>
+                    <a href="">Police declare false alarm after reports of Washington DC Navy Yard shooter</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Conflict</a>
+                    </span>
+                    <a href="">'Britain's Schindler' Sir Nicholas Winton dies aged 106</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Law & Order</a>
+                    </span>
+                    <a href="">"Wow, pulled back wrong throttle": Last words of crashed TransAsia plane captain</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Technology</a>
+                    </span>
+                    <a href="">Kit: A different class of headphones</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Conflict</a>
+                    </span>
+                    <a href="">Israel's Shin Bet dismantles Hamas cell in West Bank</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Law & Order</a>
+                    </span>
+                    <a href="">Jihadis in Europe 'euphoric', warns German intelligence report</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Sport</a>
+                    </span>
+                    <a href="">Wimbledon 2015: Record temperature sends first aiders into overdrive</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Conflict</a>
+                    </span>
+                    <a href="">Ukrainian militia claim to have spotted 'Russian military camp'</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Business</a>
+                    </span>
+                    <a href="">Amazon launches one-hour Prime delivery service in London</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Conflict</a>
+                    </span>
+                    <a href="">Syrian rebels in orange jumpsuits execute 18 Isis militants</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Law & order</a>
+                    </span>
+                    <a href="">French soldiers accused of filming abuse of five-year-old girl</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Law & Order</a>
+                    </span>
+                    <a href="">British family of 12 feared to have fled to Syria</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Politics</a>
+                    </span>
+                    <a href="">Russia queries recognition of independent Baltic states</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Law & Order</a>
+                    </span>
+                    <a href="">'Historic' crisis as 137,000 migrants reach Europe by sea in first half of 2015</a>
+                  </li>
+                  <li>
+                    <span class="category">
+                      <a href="">Technology</a>
+                    </span>
+                    <a href="">Uber France executives could face two years in prison</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="content-bottom">
+            <div class="content-bottom-top">
+              <img src="images/Bottom.png">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 news-aside">
+          <div class="content content-sidebar">
+            <a href="">
+              <img src="images/Add1.png">
+            </a>
+          </div>
+
+          <div class="content content-sidebar">
+            <a href="">
+              <img  src="http://g.europe.newsweek.com/www/img/home/double-mpu-queen-4.png">
+            </a>
+          </div>
+
+          <div class="content content-sidebar">
+            <a href="">
+              <img class ="most-read" src="images/MostRead.png">
+              <ul>
+                <li class="item">
+                  <a href="">Healthy 24-year-old granted right to die in Belgium</a>
+                </li>
+                <li class="item">
+                  <a href="">Mugabe: 'I will propose to Obama'</a>
+                </li>
+                <li class="item">
+                  <a href="">Greek banks close for a week as default looms</a>
+                </li>
+                <li class="item">
+                  <a href="">Russian military to receive over 2,000 units of heavy arms</a>
+                </li>
+                <li class="item">
+                  <a href="">Robot kills worker in German car factory</a>
+                </li>
+                <li class="item">
+                  <a href="">The church board which illuminates a thousand years of English history</a>
+                </li>
+                <li class="item">
+                  <a href="">Jeb Bush Identified As Hispanic on Voter Form: Report</a>
+                </li>
+              </ul>
+            </a>
+          </div>
+
+          <div class="content content-sidebar">
+            <a href="">
+              <img src="images/Add2.png">
+            </a>
+          </div>
+
+          <div class="content content-sidebar">
+            <a href="">
+              <img class ="most-shared" src="images/MostShared.png">
+              <ul>
+                <li class="item">
+                  <a href="">Healthy 24-year-old granted right to die in Belgium</a>
+                </li>
+                <li class="item">
+                  <a href="">Mugabe: 'I will propose to Obama'</a>
+                </li>
+                <li class="item">
+                  <a href="">Faroe Island conservationists face two years in prison for not aiding whale killings</a>
+                </li>
+                <li class="item">
+                  <a href="">Visit Jordan before Isis does</a>
+                </li>
+                <li class="item">
+                  <a href="">British crowdfunding campaign aims to solve Greek debt crisis</a>
+                </li>
+                <li class="item">
+                  <a href="">Pope to chew coca leaves in Bolivia, reveals minister</a>
+                </li>
+                <li class="item">
+                  <a href="">Israeli doctors refuse to force-feed Palestinian prisoners</a>
+                </li>
+              </ul>
+            </a>
+          </div>
+
+          <div class="content content-sidebar">
+            <a href="">
+              <img src="images/Add2.png">
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <footer class="footer">
-        <div class="footer-menu">
-          <ul>
-            <li class="leaf"><a href="">ABOUT US</a></li>
-            <li class="leaf"><a href="">ADVERTISE</a></li>
-            <li class="leaf"><a href="">CONTACT</a></li>
-            <li class="leaf"><a href="">COPYRIGHT</a></li>
-            <li class="leaf"><a href="">PRIVACY</a></li>
-            <li class="leaf"><a href="">TERMS</a></li>
-          </ul>
-        </div>
-        <div class="copyright">© 2015 Newsweek LLC</div>
+      <div class="footer-menu">
+        <ul>
+          <li class="leaf"><a href="">ABOUT US</a></li>
+          <li class="leaf"><a href="">ADVERTISE</a></li>
+          <li class="leaf"><a href="">CONTACT</a></li>
+          <li class="leaf"><a href="">COPYRIGHT</a></li>
+          <li class="leaf"><a href="">PRIVACY</a></li>
+          <li class="leaf"><a href="">TERMS</a></li>
+        </ul>
+      </div>
+      <div class="copyright">© 2015 Newsweek LLC</div>
     </footer>
 
 
